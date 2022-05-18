@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.wrapper{
+    width:800px;
+    height: 480px;
+    background-color: rgba(211, 211, 211, 0.329);
+    display: flex;
+    padding: 0 30px;
+}
+.column {
+    max-width: 25%;
+    padding: 0 4px;
+  
+}
+.column img {
+    margin-top: 8px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#small{
+    height: 150px;
+   
+}
+#big{
+    height: 300px;
+}
+  
