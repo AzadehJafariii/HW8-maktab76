@@ -12,6 +12,7 @@ function Student(name , gender) {
     this.gender = 'Male';
 }
 
+
 let studObj1 = new Student();
 Student.prototype.age = 15;
 console.log(`studObj1.age is ${studObj1.age}`);
